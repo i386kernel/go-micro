@@ -1,0 +1,4 @@
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"from":"me@here.com", "to":"johnsmith@example.com", "subject":"Test Email", "message":"HI THERE!!!"}' \
+  http://mail-service/send -v 8
