@@ -1,1 +1,4 @@
 project
+*.idea
+.idea
+.idea/**
